@@ -22,5 +22,3 @@ server.on("request", (request, response) => {
 server.listen(process.env.PORT || 8008, () => {
     console.log("Server listening at 8008");
 });
-
-//curl -d "echo" -H "Content-Type: text" -X POST http://localhost:8008
